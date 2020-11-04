@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	max-width: 750px;
+	margin: 0 auto;
+}
+.navbar {
+	border: none;
+	background-color: #fff;
+}
+.navbar:hover {
+	border: 10px #fcba03 solid;
+	background-color: #9c8443;
+	padding: 0.7em;
+}
+.nav-link {
+	text-decoration: underline;
+	color: #5e5641;
+}
+.nav-link:hover {
+	text-decoration: none;
+	color: #fcba03;
+}
+.container {
+	margin: 1em 0;
+	padding: 2em;
+}
+h2 {
+	border: 1px solid #0d0d0d;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+p {}
+#img1 {
+	max-width: 710px;
+	margin: 0 auto;
+	width: 50%;
+}
+#p1 {
+	margin: 1em 0;
+}
+.col {}
+
+
+/*footer*/
+.container1 {
+	margin: 1em 0;
+	padding: 2em;
+	justify-content: evenly;
+}
+.quicklinks {
+	padding: 1.4em;
+	margin: 2.4em;
+	color: #0d0d0d;
+}
+.colfoot {
+	justify-content: space-between;
+}
+.socialmedia {}
+.socialmedia:hover {
+	text-decoration: none;
+}
+.socialicon {
+	width: 15%;
+	margin: 0.4em;
+}
+.socialicon:hover {}
+
+
+/*signin page*/
+/*formsignin*/
+.form {
+	margin: 1.4em 0;
+	padding: 1.8em;
+	border: 0.4px solid #6451f5;
+}
+.form:hover {
+	background-color: #868fa1;
+}
+.leboformsign {
+	font-size: 1.4rem;
+	color: #28fae8;
+}
+.form-control {
+	border: 1px solid #dd7477;
+}
+#submitform1 {
+	width: 170px;
+	padding: 0.5em;
+	border-radius: 15px;
+	border: 1.1px solid #5fe639;
+}
+#submitform1:hover {
+	border: 2.1px solid #38ff00;
+	background-color: #95f257;
+}
+#resetform1 {
+	width: 170px;
+	padding: 0.5em;
+	border-radius: 15px;
+	border: 1.1px solid #eb3434;
+}
+#resetform1:hover {
+	border: 2.1px solid #ff0000;
+	background-color: #f25757;
+}
+
+
+/*services page*/
